@@ -3,9 +3,11 @@
 AIXTEAMEMAIL=""
 LOGDIR="/usr/local/bin/Restores"
 LOGFILE="RestoreLog"
-#Document to get VG name from PVID of incoming disk and hostname. Used in GETDISKINFO
+#Document to get VG name from PVID of incoming disk and hostname. Used in GETDISKINFO 
 DR_VGINFO="/usr/local/bin/DR_VGINFO.DOC"
 #Command for lsviocfg with full path. Used in GETDISKINFO
+#lsviocfg is a custom utility we built to pull information from our 3par arrays for information such as lun ID, size, etc.
+#example output: hdisk0 (Avail pv rootvg) 72A913E6  3PAR-id=5094-DADR01004-p_dev_vg_maltr004.0 VOL-id=29353
 LSVIOCFG="/usr/local/bin/lsviocfg"
 #Directory where mounted snap will be mounted on client as well as on this server where snaps will be mounted
 RESTOREDIR="/RESTORE"
