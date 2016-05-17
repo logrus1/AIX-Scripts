@@ -1,6 +1,6 @@
 #!/usr/bin/ksh
 
-AIXTEAMEMAIL="phil.schaefer@westrock.com"
+AIXTEAMEMAIL=""
 LOGDIR="/usr/local/bin/Restores"
 LOGFILE="RestoreLog"
 #Document to get VG name from PVID of incoming disk and hostname. Used in GETDISKINFO
