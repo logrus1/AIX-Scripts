@@ -12,7 +12,7 @@
 # When run this script will dump output to a logfile in the same folder called       #
 # <scriptname>.out.  If the file already exists it will append to the current file   #
 # and put the current date before the new output                                     #
-#                                                                                    #
+# Assumes that you have a shared key from the server you are running this on.        #
 ######################################################################################
 
 #!/usr/bin/ksh
